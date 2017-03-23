@@ -1,0 +1,34 @@
+#obr {
+    /*transform: translate(100px, 0);*/
+    /*transform: translate(100px, 0) rotate(15deg);*/
+    /*transform-origin: 0 0*/
+    /*transform: scale(-1, 1) translate(100px, 0);*/
+    backface-visibility: hidden;
+    transform: perspective(600px) rotateY(50deg);
+}
+
+#card {
+    background-color: rgb(153, 204, 255);
+    height: 208px;
+    width: 300px;
+    position: relative;
+}
+
+#card img {
+    position: absolute;
+    backface-visibility: hidden;
+    transition: transform 6s;
+}
+
+#back {
+    transform: perspective(600px) rotateY(-179.9deg);
+}
+#front {
+    transform: perspective(600px) rotateY(0deg);
+}
+#card:hover #back {
+    transform: perspective(600px) rotateY(0deg);
+}
+#card:hover #front {
+    transform: perspective(600px) rotateY(179.9deg);    
+}
