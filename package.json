@@ -1,13 +1,14 @@
 {
-  "name": "kurz",
+  "name": "gopas_html5_css3",
   "version": "1.0.0",
-  "description": "",
+  "description": "Gopas skoleni HTML5 a CSS3",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "grunt": "grunt"
   },
   "keywords": [],
-  "author": "",
+  "author": "tohu",
   "license": "ISC",
   "devDependencies": {
     "grunt": "^1.0.1",
