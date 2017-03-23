@@ -1,0 +1,60 @@
+#block1 {
+    height: 200px;
+    width: 200px;
+    /*background-color: rgb(153, 204, 255);*/
+    background-image: url(//unsplash.it/200/?random);
+    /*transition: background-color 3s, width 1s;*/
+    transition: all 3s;
+}
+
+#block1.state2 {
+    width: 400px;
+}
+
+#block1:hover {
+    background-color: brown;
+    width: 400px;
+    border-radius: 50%;
+    transition: all 0s;
+}
+
+#block2 {
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#ball1, #ball2 {
+    animation: horizontal 1s linear, vertical 2.5s ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: rgb(153, 0, 0);
+    border-radius: 50%;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+    left: 0;
+    top: 280px;
+}
+
+#ball2 {
+    background-color: rgb(10, 153, 0);
+    animation-delay: -2s
+}
+
+#block2:hover #ball2 {
+    animation-play-state: paused;
+}
+
+@keyframes horizontal {
+    to {
+        left: 480px;
+    }
+}
+
+@keyframes vertical {
+    to {
+        top: 0px;
+    }
+}
