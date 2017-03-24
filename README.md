@@ -13,3 +13,4 @@ Two day course in [Gopas](http://www.gopas.cz/Kurzy/Katalog-kurzu/Kurzy-pro-uziv
     * Responsive img 
         * Padding-bottom hack
         * Srcset and sizes attributes
+1. SVG
