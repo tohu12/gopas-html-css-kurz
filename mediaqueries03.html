@@ -7,11 +7,17 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/mediaqueries.css" type="text/css">
-    <!--<script src="https://scottjehl.github.io/Respond/dest/respond.src.js"></script>-->
+    <script async src="//scottjehl.github.io/Respond/dest/respond.src.js"></script>
+    <script async src="//cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js"></script>
 </head>
 
 <body>
     <h1>CSS3 Media Queries 03</h1>
+
+    <p class="responsive r1">
+        <img sizes="(min-width: 1000px) 960px, 96vw" srcset="images/praha400.jpg 400w, images/praha.jpg 960w"
+        alt="Praha" height="447" width="960">
+    </p>
 
     <div class="column">
         <p>Non ex ipsum adipisicing nulla amet. Officia anim aliqua Lorem veniam consequat enim proident voluptate. Nostrud
