@@ -20,6 +20,7 @@ Two day course in [Gopas](http://www.gopas.cz/Kurzy/Katalog-kurzu/Kurzy-pro-uziv
     * background
     * retina
 1. [Flexible Box](http://caniuse.com/#search=flex-box)
+1. Video
 
 
 ### URLs
