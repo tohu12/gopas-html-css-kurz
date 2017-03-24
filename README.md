@@ -14,8 +14,17 @@ Two day course in [Gopas](http://www.gopas.cz/Kurzy/Katalog-kurzu/Kurzy-pro-uziv
         * Padding-bottom hack
         * Srcset and sizes attributes
 1. SVG
-1. Graphic+
+1. Graphic
     * PNG
     * gradient
     * background
     * retina
+1. [Flexible Box](http://caniuse.com/#search=flex-box)
+
+
+### URLs
+
+* <https://www.html5rocks.com/en/>
+* <https://www.smashingmagazine.com/>
+* <http://frontendfocus.co/>
+* <http://responsivedesignweekly.com/>

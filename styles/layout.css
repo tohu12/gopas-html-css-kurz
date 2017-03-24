@@ -1,0 +1,30 @@
+#k1 {
+    background-color: rgb(153, 204, 255);
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+}
+
+#k1 > div {
+    /*background-color: rgb(255, 204, 0);*/
+    height: 200px;
+}
+
+#k1 #f1 {
+    background-color: rgb(155, 04, 0);
+    flex: 1;
+    order: 1;
+    height: 300px;
+}
+
+#f2 {
+    background-color: rgb(55, 304, 0);
+    width: 100px;
+    order: 0;
+}
+
+#f3 {
+    background-color: rgb(055, 04, 200);
+    width: 100px;
+    order: 2;
+}
