@@ -1,7 +1,7 @@
 body {
     /*background-image: url(//unsplash.it/500/500/?random);*/
     margin: 0% auto;
-    max-width: 560px;
+    max-width: 960px;
     width: 96%;
 }
 
@@ -18,13 +18,23 @@ p {
     width: 100%;
 }
 
+.r2 {
+    padding-bottom: 56.2%;
+    width: 100%;
+}
+
+.r3 {
+    padding-bottom: 97.8%;
+    width: 100%;
+}
+
 .responsive {
     background-color: beige;
     height: 0;
     position: relative;
 }
 
-.responsive img {
+.responsive img, .responsive object, .responsive svg {
     /*max-width: 100%;*/
     height: auto;
     position: absolute;
@@ -48,4 +58,8 @@ p {
         width: 50%;
         padding: 0 1%;
     }
+}
+
+#owl path {
+    stroke: green;
 }
