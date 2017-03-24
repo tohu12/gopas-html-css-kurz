@@ -30,7 +30,7 @@ p {
 
 .responsive {
     background-color: beige;
-    height: 0;
+    /*height: 0;*/
     position: relative;
 }
 
