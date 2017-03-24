@@ -28,11 +28,26 @@ module.exports = function (grunt) {
       }
     },
 
+    imagemin: {                          // Task
+      dynamic: {
+        options: {                       // Target options
+          optimizationLevel: 1
+        },                       // Another target
+        files: [{
+          expand: true,                  // Enable dynamic expansion
+          cwd: 'images/',                   // Src matches are relative to this path
+          src: ['**/*.png'],   // Actual patterns to match
+          dest: 'dist/'                  // Destination path prefix
+        }]
+      }
+    }
+
   });
 
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   // Default task(s).
   grunt.registerTask('default', ['connect', 'watch']);

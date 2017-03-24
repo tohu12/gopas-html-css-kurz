@@ -14,3 +14,8 @@ Two day course in [Gopas](http://www.gopas.cz/Kurzy/Katalog-kurzu/Kurzy-pro-uziv
         * Padding-bottom hack
         * Srcset and sizes attributes
 1. SVG
+1. Graphic+
+    * PNG
+    * gradient
+    * background
+    * retina
